@@ -26,3 +26,16 @@ for (let x = 0; x < numbers2.length; x++) {
 }
 
 console.log(result); // Output should be 200 // 
+
+
+// This is the "While Loop" example, diplay numbers again, this one is a little more confusing to me // 
+
+console.log("\n")
+
+let i = 1;
+const numbers3 = 7;
+
+do {
+    console.log(i);
+    i++;
+} while(i <= numbers3);
