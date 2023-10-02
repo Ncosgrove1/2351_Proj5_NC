@@ -6,12 +6,33 @@
   <body>
 
 
-    <p>This is the 5th week learning code in <strong>IMED-2351-001</strong>. This week we are learning about Loops and DOM.</p>
+    <h2>This is the 5th week learning code in <strong>IMED-2351-001</strong>. This week we are learning about Loops and DOM.</h2>
 
-    <h1></h1>
+    <p>Both Loop Examples are output to the console</p>
 
+    <p><strong>CSS Change will be shown here</strong></p>
 
-    <link rel="stylesheet" href="./style.css" />
+    <h1 id ="head">Watch Me Change!</h1>
+    <button id="myButton">Please Click Me</button>
+
+<script>            
+document.querySelector("#myButton").onclick = function() {
+
+const h1 = document.querySelector("#head");
+
+console.log(h1.style);
+
+h1.style.color = "#ff0000";
+h1.style.backgroundColor = "black";
+h1.style.fontFamily = "cursive";
+h1.style.textAlign = "center";
+h1.style.border = "4px solid";
+h1.style.borderColor = "red";
+}
+
+</script>   
+
+    <link rel="stylesheet" href="style.css" />
     <script src ="app.js"></script>
 
   </body>

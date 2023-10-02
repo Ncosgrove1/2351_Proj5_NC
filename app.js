@@ -39,3 +39,25 @@ do {
     console.log(i);
     i++;
 } while(i <= numbers3);
+
+// CHANGING CSS w/ JavaScript Code // 
+
+
+document.body.style.color="red";                
+document.body.style.fontSize="14px";                
+            
+document.body.style="background:#222; color:#fff";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
